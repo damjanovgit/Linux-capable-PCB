@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/A33/eec.lib)(options "")(descr ""))
+  (lib (name Linux-capable-PCB-KiCAD-rescue)(type Legacy)(uri ${KIPRJMOD}/Linux-capable-PCB-KiCAD-rescue.lib)(options "")(descr ""))
 )
