@@ -1,0 +1,48 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\r16_dram_ref_8x2_16x1_16x2_v1_2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\r16_dram_ref_8x2_16x1_16x2_v1_2.dsn")
+      (Path "Design Resources" ".\r16_dram_ref_8x2_16x1_16x2_v1_2.dsn"
+         "R16_EVB1_8X2_16X1_16X2_V1_0")
+      (Select "Design Resources" ".\r16_dram_ref_8x2_16x1_16x2_v1_2.dsn"
+         "R16_EVB1_8X2_16X1_16X2_V1_0" "05 DRAM DDR3 8bitX2_16bitx1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1236 125 534")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\PCB LAYOUT参考\R16_DRAM_REF_8X2_16X1_16X2_V1_0\R16_DRAM_REF_8X2_16X1_16X2_V1_0\R16_DRAM_REF_8X2_16X1_16X2_V1_2.DSN")
+      (Schematic "R16_EVB1_8X2_16X1_16X2_V1_0")
+      (Page "05 DRAM DDR3 8bitX2_16bitx1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1261 150 559")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\PCB LAYOUT参考\R16_DRAM_REF_8X2_16X1_16X2_V1_0\R16_DRAM_REF_8X2_16X1_16X2_V1_0\R16_DRAM_REF_8X2_16X1_16X2_V1_2.DSN")
+      (Schematic "R16_EVB1_8X2_16X1_16X2_V1_0")
+      (Page "06 CPU"))))

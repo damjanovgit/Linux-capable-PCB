@@ -945,9 +945,193 @@ Wire Wire Line
 Wire Wire Line
 	6300 4200 6300 4300
 $Sheet
-S 4125 6000 975  750 
+S 4675 5950 975  750 
 U 62B6FA43
 F0 "WiFi_chip" 50
 F1 "WiFi_chip.sch" 50
+F2 "SD_D1" I L 4675 6100 50 
+F3 "SD_D0" I L 4675 6200 50 
+F4 "SD_CLK" I L 4675 6300 50 
+F5 "SD_CMD" I L 4675 6400 50 
+F6 "SD_D3" I L 4675 6500 50 
+F7 "SD_D2" I L 4675 6600 50 
+F8 "WIFI_ANT" I R 5650 6100 50 
+F9 "WIFI_EN" I R 5650 6200 50 
+F10 "VDD33" I R 5650 6300 50 
+F11 "VDIO" I R 5650 6400 50 
 $EndSheet
+Wire Wire Line
+	4675 6100 4425 6100
+Wire Wire Line
+	4675 6200 4425 6200
+Wire Wire Line
+	4675 6300 4425 6300
+Wire Wire Line
+	4675 6400 4425 6400
+Wire Wire Line
+	4675 6500 4425 6500
+Wire Wire Line
+	4675 6600 4425 6600
+Wire Wire Line
+	5650 6100 5875 6100
+Wire Wire Line
+	5650 6200 5875 6200
+Text Label 4425 6100 2    50   ~ 0
+SD_D1
+Text Label 4425 6200 2    50   ~ 0
+SD_D0
+Text Label 4425 6300 2    50   ~ 0
+SD_CLK
+Text Label 4425 6400 2    50   ~ 0
+SD_CMD
+Text Label 4425 6500 2    50   ~ 0
+SD_D3
+Text Label 4425 6600 2    50   ~ 0
+SD_D2
+Text Label 5875 6200 0    50   ~ 0
+WIFI_EN
+Wire Wire Line
+	2150 3600 2400 3600
+Wire Wire Line
+	2150 3700 2400 3700
+Wire Wire Line
+	2150 3800 2400 3800
+Wire Wire Line
+	2150 3900 2400 3900
+Wire Wire Line
+	2150 4000 2400 4000
+Wire Wire Line
+	2150 4100 2400 4100
+Text Label 2400 3600 0    50   ~ 0
+SD_D1
+Text Label 2400 3700 0    50   ~ 0
+SD_D0
+Text Label 2400 3800 0    50   ~ 0
+SD_CLK
+Text Label 2400 3900 0    50   ~ 0
+SD_CMD
+Text Label 2400 4000 0    50   ~ 0
+SD_D3
+Text Label 2400 4100 0    50   ~ 0
+SD_D2
+Wire Wire Line
+	2150 4200 2400 4200
+Text Label 2400 4200 0    50   ~ 0
+WIFI_EN
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62BC8F49
+P 6400 6275
+F 0 "#PWR?" H 6400 6125 50  0001 C CNN
+F 1 "+3V3" H 6415 6448 50  0000 C CNN
+F 2 "" H 6400 6275 50  0001 C CNN
+F 3 "" H 6400 6275 50  0001 C CNN
+	1    6400 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 6300 6400 6275
+Wire Wire Line
+	5650 6300 6400 6300
+Wire Wire Line
+	6400 6400 6400 6300
+Wire Wire Line
+	5650 6400 6400 6400
+Connection ~ 6400 6300
+$Comp
+L device:Antenna_Dipole AE?
+U 1 1 62BDE556
+P 5875 5550
+F 0 "AE?" H 6105 5464 50  0000 L CNN
+F 1 "Antenna_Dipole" H 6105 5373 50  0000 L CNN
+F 2 "" H 5875 5550 50  0001 C CNN
+F 3 "" H 5875 5550 50  0001 C CNN
+	1    5875 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 5750 5875 6100
+$Comp
+L power:GND #PWR?
+U 1 1 62BE7FC5
+P 5975 5875
+F 0 "#PWR?" H 5975 5625 50  0001 C CNN
+F 1 "GND" H 5980 5702 50  0000 C CNN
+F 2 "" H 5975 5875 50  0001 C CNN
+F 3 "" H 5975 5875 50  0001 C CNN
+	1    5975 5875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5975 5875 5975 5750
+$Comp
+L MIPI_DSI_Raspberry:MIPI_DSI_Raspberry U?
+U 1 1 62BF49A5
+P 4775 1850
+F 0 "U?" H 4750 2865 50  0000 C CNN
+F 1 "MIPI_DSI_Raspberry" H 4750 2774 50  0000 C CNN
+F 2 "" H 4775 1850 50  0001 C CNN
+F 3 "" H 4775 1850 50  0001 C CNN
+	1    4775 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5175 1100
+NoConn ~ 5175 1200
+NoConn ~ 5175 1300
+NoConn ~ 5175 1400
+NoConn ~ 5175 1500
+NoConn ~ 5175 1600
+NoConn ~ 5175 1700
+NoConn ~ 5175 1800
+NoConn ~ 5175 1900
+NoConn ~ 5175 2000
+NoConn ~ 5175 2100
+NoConn ~ 5175 2200
+NoConn ~ 5175 2300
+NoConn ~ 5175 2400
+NoConn ~ 5175 2500
+Wire Wire Line
+	4325 1100 4225 1100
+Wire Wire Line
+	4225 1100 4225 1400
+$Comp
+L power:GND #PWR?
+U 1 1 62C7BB53
+P 4225 2600
+F 0 "#PWR?" H 4225 2350 50  0001 C CNN
+F 1 "GND" H 4230 2427 50  0000 C CNN
+F 2 "" H 4225 2600 50  0001 C CNN
+F 3 "" H 4225 2600 50  0001 C CNN
+	1    4225 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 1400 4225 1400
+Connection ~ 4225 1400
+Wire Wire Line
+	4225 1400 4225 1700
+Wire Wire Line
+	4325 1700 4225 1700
+Connection ~ 4225 1700
+Wire Wire Line
+	4225 1700 4225 2000
+Wire Wire Line
+	4325 2000 4225 2000
+Connection ~ 4225 2000
+Wire Wire Line
+	4225 2000 4225 2600
+NoConn ~ 4325 2200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62CB19B6
+P 3300 2500
+F 0 "#PWR?" H 3300 2350 50  0001 C CNN
+F 1 "+3V3" H 3315 2673 50  0000 C CNN
+F 2 "" H 3300 2500 50  0001 C CNN
+F 3 "" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2500 4325 2500
 $EndSCHEMATC

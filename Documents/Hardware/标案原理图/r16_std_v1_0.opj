@@ -1,0 +1,146 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\r16_std_v1_0.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\r16_std_v1_0.dsn")
+      (Path "Design Resources" ".\r16_std_v1_0.dsn" "R16 REF")
+      (Path "Design Resources" ".\r16_std_v1_0.dsn" "OPTION")
+      (Select "Design Resources" ".\r16_std_v1_0.dsn" "R16 REF" "09 LCD TP"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 260"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1136 25 434")
+        (Scroll "0 87")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "14 SDIO WIFI&BT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1161 50 459")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "08 NAND"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1186 75 484")
+        (Scroll "336 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "02 BLOCK DIAGRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1286 175 584")
+        (Scroll "327 0")
+        (Zoom "100"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "OPTION")
+      (Page "17 SDIO WIFI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 1111 0 409")
+        (Scroll "0 405")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "15 USB WIFI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1136 25 434")
+        (Scroll "0 87")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "03 POWER TREE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1161 50 459")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "04 GPIO ASSIGNMENT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1186 75 484")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "05 DRAM DDR3  8bitX2_16bitx1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1211 100 509")
+        (Scroll "925 437")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "06 CPU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1236 125 534")
+        (Scroll "389 208")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "07 POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 150 1261 150 559")
+        (Scroll "0 450")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\用户目录\DOWNLOADS\全志 R16 软硬件全套设计资料\HARDWARE\标案原理图\R16_STD_V1_0.DSN")
+      (Schematic "R16 REF")
+      (Page "09 LCD TP"))))
