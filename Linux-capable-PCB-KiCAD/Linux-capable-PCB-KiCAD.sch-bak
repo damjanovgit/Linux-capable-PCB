@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -113,164 +113,6 @@ Wire Wire Line
 	1400 2250 1850 2250
 Wire Wire Line
 	1400 2650 1850 2650
-Wire Bus Line
-	2350 4050 2200 4050
-Text GLabel 2200 4050 0    50   Input ~ 0
-address_bus[015]
-$Comp
-L eec:A33 U?
-U 1 1 62A072CA
-P 2400 2250
-F 0 "U?" H 3050 2515 50  0000 C CNN
-F 1 "A33" H 3050 2424 50  0000 C CNN
-F 2 "Allwinner_Technology_Co.,_Ltd.-A33-*" H 2400 2650 50  0001 L CNN
-F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 2400 2750 50  0001 L CNN
-F 4 "1.8V ~ 3.3V" H 2400 2850 50  0001 L CNN "DC Supply Voltage for I/O"
-F 5 "IC" H 2400 2950 50  0001 L CNN "category"
-F 6 "BGA289N80P17X17_1400X1400X129" H 2400 3050 50  0001 L CNN "ipc land pattern name"
-F 7 "yes" H 2400 3150 50  0001 L CNN "lead free"
-F 8 "f6b937119e25c27a" H 2400 3250 50  0001 L CNN "library id"
-F 9 "Allwinner Technology Co., Ltd." H 2400 3350 50  0001 L CNN "manufacturer"
-F 10 "TFBGA282" H 2400 3450 50  0001 L CNN "package"
-F 11 "yes" H 2400 3550 50  0001 L CNN "rohs"
-F 12 "+125°C" H 2400 3650 50  0001 L CNN "temperature range high"
-F 13 "-40°C" H 2400 3750 50  0001 L CNN "temperature range low"
-F 14 "" H 2400 3850 50  0001 L CNN "voltage"
-	1    2400 2250
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	2350 2350 2450 2450
-Entry Wire Line
-	2350 2450 2450 2550
-Entry Wire Line
-	2350 2550 2450 2650
-Entry Wire Line
-	2350 2650 2450 2750
-Entry Wire Line
-	2350 2750 2450 2850
-Entry Wire Line
-	2350 2850 2450 2950
-Entry Wire Line
-	2350 2950 2450 3050
-Entry Wire Line
-	2350 3050 2450 3150
-Entry Wire Line
-	2350 3150 2450 3250
-Entry Wire Line
-	2350 3250 2450 3350
-Entry Wire Line
-	2350 3350 2450 3450
-Entry Wire Line
-	2350 3450 2450 3550
-Entry Wire Line
-	2350 3550 2450 3650
-Entry Wire Line
-	2350 3650 2450 3750
-Entry Wire Line
-	2350 3750 2450 3850
-Entry Wire Line
-	2350 3850 2450 3950
-Wire Wire Line
-	2450 2450 2500 2450
-Wire Wire Line
-	2500 2550 2450 2550
-Wire Wire Line
-	2450 2650 2500 2650
-Wire Wire Line
-	2500 2750 2450 2750
-Wire Wire Line
-	2450 2850 2500 2850
-Wire Wire Line
-	2500 2950 2450 2950
-Wire Wire Line
-	2450 3050 2500 3050
-Wire Wire Line
-	2500 3150 2450 3150
-Wire Wire Line
-	2450 3250 2500 3250
-Wire Wire Line
-	2500 3350 2450 3350
-Wire Wire Line
-	2450 3450 2500 3450
-Wire Wire Line
-	2500 3550 2450 3550
-Wire Wire Line
-	2450 3650 2500 3650
-Wire Wire Line
-	2500 3750 2450 3750
-Wire Wire Line
-	2450 3850 2500 3850
-Wire Wire Line
-	2500 3950 2450 3950
-Wire Bus Line
-	3750 3850 3900 3850
-Text GLabel 3900 3850 2    50   Input ~ 0
-data_bus[0..15]
-Entry Wire Line
-	3650 2250 3750 2150
-Entry Wire Line
-	3650 2350 3750 2250
-Entry Wire Line
-	3750 2350 3650 2450
-Entry Wire Line
-	3650 2550 3750 2450
-Entry Wire Line
-	3650 2650 3750 2550
-Entry Wire Line
-	3650 2750 3750 2650
-Entry Wire Line
-	3650 2850 3750 2750
-Entry Wire Line
-	3650 2950 3750 2850
-Entry Wire Line
-	3650 3050 3750 2950
-Entry Wire Line
-	3650 3150 3750 3050
-Entry Wire Line
-	3650 3250 3750 3150
-Entry Wire Line
-	3650 3350 3750 3250
-Entry Wire Line
-	3650 3450 3750 3350
-Entry Wire Line
-	3650 3550 3750 3450
-Entry Wire Line
-	3650 3650 3750 3550
-Entry Wire Line
-	3650 3750 3750 3650
-Wire Wire Line
-	3650 3750 3600 3750
-Wire Wire Line
-	3600 3650 3650 3650
-Wire Wire Line
-	3650 3550 3600 3550
-Wire Wire Line
-	3600 3450 3650 3450
-Wire Wire Line
-	3650 3350 3600 3350
-Wire Wire Line
-	3600 3250 3650 3250
-Wire Wire Line
-	3650 3150 3600 3150
-Wire Wire Line
-	3650 3050 3600 3050
-Wire Wire Line
-	3600 2950 3650 2950
-Wire Wire Line
-	3650 2850 3600 2850
-Wire Wire Line
-	3600 2750 3650 2750
-Wire Wire Line
-	3650 2650 3600 2650
-Wire Wire Line
-	3600 2550 3650 2550
-Wire Wire Line
-	3650 2450 3600 2450
-Wire Wire Line
-	3600 2350 3650 2350
-Wire Wire Line
-	3650 2250 3600 2250
 $Comp
 L eec:A33 U?
 U 2 1 62A4C368
@@ -1571,22 +1413,335 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 62FC748E
-P 2050 5600
-F 0 "#PWR?" H 2050 5350 50  0001 C CNN
-F 1 "GND" H 2055 5427 50  0000 C CNN
-F 2 "" H 2050 5600 50  0001 C CNN
-F 3 "" H 2050 5600 50  0001 C CNN
-	1    2050 5600
-	1    0    0    -1  
+P 1950 5550
+F 0 "#PWR?" H 1950 5300 50  0001 C CNN
+F 1 "GND" H 1955 5377 50  0000 C CNN
+F 2 "" H 1950 5550 50  0001 C CNN
+F 3 "" H 1950 5550 50  0001 C CNN
+	1    1950 5550
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2050 5600 2050 5550
-Wire Wire Line
-	2050 5550 2100 5550
-Wire Wire Line
 	2400 5550 2500 5550
+$Sheet
+S 1750 6150 1850 1325
+U 62B74C24
+F0 "RAM" 50
+F1 "RAM.sch" 50
+F2 "~RST" I L 1750 6250 50 
+F3 "~WE" I L 1750 6375 50 
+F4 "~CS" I L 1750 7000 50 
+F5 "~CKE" I L 1750 6500 50 
+F6 "CK" I L 1750 6750 50 
+F7 "~CK" I L 1750 6625 50 
+F8 "~RAS" I L 1750 7125 50 
+F9 "~CAS" I L 1750 7250 50 
+F10 "~DQSL" I R 3600 6450 50 
+F11 "~DQSU" I R 3600 6900 50 
+F12 "DQSL" I R 3600 6600 50 
+F13 "DQSU" I R 3600 7075 50 
+F14 "DML" I R 3600 6300 50 
+F15 "DMU" I R 3600 6750 50 
+F16 "ODT" I L 1750 6875 50 
+$EndSheet
+Wire Wire Line
+	3600 4850 3725 4850
+Wire Wire Line
+	3725 4850 3725 6300
+Wire Wire Line
+	3725 6300 3600 6300
+Wire Wire Line
+	3600 6450 3850 6450
+Wire Wire Line
+	3850 6450 3850 4750
+Wire Wire Line
+	3850 4750 3600 4750
+Wire Wire Line
+	3600 4650 3975 4650
+Wire Wire Line
+	3975 4650 3975 6600
+Wire Wire Line
+	3975 6600 3600 6600
+Wire Wire Line
+	3600 6750 4100 6750
+Wire Wire Line
+	4100 6750 4100 4550
+Wire Wire Line
+	4100 4550 3600 4550
+Wire Wire Line
+	3600 4450 4250 4450
+Wire Wire Line
+	4250 4450 4250 6900
+Wire Wire Line
+	4250 6900 3600 6900
+Wire Wire Line
+	3600 7075 4375 7075
+Wire Wire Line
+	4375 7075 4375 4350
+Wire Wire Line
+	4375 4350 3600 4350
+Wire Wire Line
+	1750 6250 1600 6250
+Wire Wire Line
+	1600 6250 1600 5750
+Wire Wire Line
+	1600 5750 2500 5750
+Wire Wire Line
+	1950 5550 2100 5550
+Wire Wire Line
+	1750 6375 1500 6375
+Wire Wire Line
+	1500 6375 1500 5450
+Wire Wire Line
+	1500 5450 2500 5450
+Wire Wire Line
+	2500 5150 1375 5150
+Wire Wire Line
+	1375 5150 1375 6500
+Wire Wire Line
+	1375 6500 1750 6500
+$Comp
+L Linux-capable-PCB-KiCAD-rescue:R-device R?
+U 1 1 63215474
+P 2250 5050
+F 0 "R?" V 2200 4900 50  0000 C CNN
+F 1 "22R" V 2250 5050 50  0000 C CNN
+F 2 "" V 2180 5050 50  0001 C CNN
+F 3 "" H 2250 5050 50  0001 C CNN
+	1    2250 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Linux-capable-PCB-KiCAD-rescue:R-device R?
+U 1 1 6321588F
+P 2250 4950
+F 0 "R?" V 2200 4800 50  0000 C CNN
+F 1 "22R" V 2250 4950 50  0000 C CNN
+F 2 "" V 2180 4950 50  0001 C CNN
+F 3 "" H 2250 4950 50  0001 C CNN
+	1    2250 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4950 2400 4950
+Wire Wire Line
+	2500 5050 2400 5050
+Wire Wire Line
+	2100 5050 1250 5050
+Wire Wire Line
+	1250 5050 1250 6625
+Wire Wire Line
+	1250 6625 1750 6625
+Wire Wire Line
+	1750 6750 1125 6750
+Wire Wire Line
+	1125 6750 1125 4950
+Wire Wire Line
+	1125 4950 2100 4950
+Wire Wire Line
+	2500 4650 1000 4650
+Wire Wire Line
+	1000 4650 1000 6875
+Wire Wire Line
+	1000 6875 1750 6875
+Wire Wire Line
+	1750 7000 875  7000
+Wire Wire Line
+	875  7000 875  4450
+Wire Wire Line
+	875  4450 2500 4450
+Wire Wire Line
+	2500 4250 750  4250
+Wire Wire Line
+	750  4250 750  7125
+Wire Wire Line
+	750  7125 1750 7125
+Wire Wire Line
+	1750 7250 625  7250
+Wire Wire Line
+	625  7250 625  4150
+Wire Wire Line
+	625  4150 2500 4150
+$Comp
+L eec:A33 U?
+U 1 1 62A072CA
+P 2400 2250
+F 0 "U?" H 3050 2515 50  0000 C CNN
+F 1 "A33" H 3050 2424 50  0000 C CNN
+F 2 "Allwinner_Technology_Co.,_Ltd.-A33-*" H 2400 2650 50  0001 L CNN
+F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 2400 2750 50  0001 L CNN
+F 4 "1.8V ~ 3.3V" H 2400 2850 50  0001 L CNN "DC Supply Voltage for I/O"
+F 5 "IC" H 2400 2950 50  0001 L CNN "category"
+F 6 "BGA289N80P17X17_1400X1400X129" H 2400 3050 50  0001 L CNN "ipc land pattern name"
+F 7 "yes" H 2400 3150 50  0001 L CNN "lead free"
+F 8 "f6b937119e25c27a" H 2400 3250 50  0001 L CNN "library id"
+F 9 "Allwinner Technology Co., Ltd." H 2400 3350 50  0001 L CNN "manufacturer"
+F 10 "TFBGA282" H 2400 3450 50  0001 L CNN "package"
+F 11 "yes" H 2400 3550 50  0001 L CNN "rohs"
+F 12 "+125°C" H 2400 3650 50  0001 L CNN "temperature range high"
+F 13 "-40°C" H 2400 3750 50  0001 L CNN "temperature range low"
+F 14 "" H 2400 3850 50  0001 L CNN "voltage"
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 4550
+NoConn ~ 2500 4750
+NoConn ~ 2500 5250
+Wire Wire Line
+	2275 2450 2500 2450
+Entry Bus Bus
+	2175 2550 2275 2450
+Entry Bus Bus
+	2175 2650 2275 2550
+Entry Bus Bus
+	2175 2750 2275 2650
+Entry Bus Bus
+	2175 2850 2275 2750
+Entry Bus Bus
+	2175 2950 2275 2850
+Entry Bus Bus
+	2175 3050 2275 2950
+Entry Bus Bus
+	2175 3150 2275 3050
+Entry Bus Bus
+	2175 3250 2275 3150
+Entry Bus Bus
+	2175 3350 2275 3250
+Entry Bus Bus
+	2175 3450 2275 3350
+Entry Bus Bus
+	2175 3550 2275 3450
+Entry Bus Bus
+	2175 3650 2275 3550
+Entry Bus Bus
+	2175 3750 2275 3650
+Entry Bus Bus
+	2175 3850 2275 3750
+Entry Bus Bus
+	2175 3950 2275 3850
+Wire Wire Line
+	2275 3950 2500 3950
+Wire Wire Line
+	2275 3850 2500 3850
+Wire Wire Line
+	2275 3750 2500 3750
+Wire Wire Line
+	2275 3650 2500 3650
+Wire Wire Line
+	2275 3550 2500 3550
+Wire Wire Line
+	2275 3450 2500 3450
+Wire Wire Line
+	2275 3350 2500 3350
+Wire Wire Line
+	2275 3250 2500 3250
+Wire Wire Line
+	2275 3150 2500 3150
+Wire Wire Line
+	2275 3050 2500 3050
+Wire Wire Line
+	2275 2950 2500 2950
+Wire Wire Line
+	2275 2850 2500 2850
+Wire Wire Line
+	2275 2750 2500 2750
+Wire Wire Line
+	2275 2650 2500 2650
+Wire Wire Line
+	2275 2550 2500 2550
 Wire Bus Line
-	3750 2150 3750 3850
+	2175 4050 1975 4050
+Wire Wire Line
+	3600 2250 3825 2250
+Entry Bus Bus
+	3825 2250 3925 2350
+Entry Bus Bus
+	3825 2350 3925 2450
+Entry Bus Bus
+	3825 2450 3925 2550
+Entry Bus Bus
+	3825 2550 3925 2650
+Entry Bus Bus
+	3825 2650 3925 2750
+Entry Bus Bus
+	3825 2750 3925 2850
+Entry Bus Bus
+	3825 2850 3925 2950
+Entry Bus Bus
+	3825 2950 3925 3050
+Entry Bus Bus
+	3825 3050 3925 3150
+Entry Bus Bus
+	3825 3150 3925 3250
+Entry Bus Bus
+	3825 3250 3925 3350
+Entry Bus Bus
+	3825 3350 3925 3450
+Entry Bus Bus
+	3825 3450 3925 3550
+Entry Bus Bus
+	3825 3550 3925 3650
+Entry Bus Bus
+	3825 3650 3925 3750
+Entry Bus Bus
+	3825 3750 3925 3850
+Wire Wire Line
+	3600 3750 3825 3750
+Wire Wire Line
+	3600 3650 3825 3650
+Wire Wire Line
+	3600 3550 3825 3550
+Wire Wire Line
+	3600 3450 3825 3450
+Wire Wire Line
+	3600 3350 3825 3350
+Wire Wire Line
+	3600 3250 3825 3250
+Wire Wire Line
+	3600 3150 3825 3150
+Wire Wire Line
+	3600 3050 3825 3050
+Wire Wire Line
+	3600 2950 3825 2950
+Wire Wire Line
+	3600 2850 3825 2850
+Wire Wire Line
+	3600 2750 3825 2750
+Wire Wire Line
+	3600 2650 3825 2650
+Wire Wire Line
+	3600 2550 3825 2550
+Wire Wire Line
+	3600 2450 3825 2450
+Wire Wire Line
+	3600 2350 3825 2350
 Wire Bus Line
-	2350 2350 2350 4050
+	3925 3850 4150 3850
+Wire Wire Line
+	3600 3950 3825 3950
+Wire Wire Line
+	3600 4050 3825 4050
+Wire Wire Line
+	3600 4150 3825 4150
+Entry Bus Bus
+	3825 3950 3925 4050
+Entry Bus Bus
+	3825 4050 3925 4150
+Entry Bus Bus
+	3825 4150 3925 4250
+Wire Bus Line
+	3925 4250 4150 4250
+Text GLabel 4150 3850 2    50   Input ~ 0
+d[0..15]
+Text GLabel 4150 4250 2    50   Input ~ 0
+dba[0..2]
+Text GLabel 1975 4050 0    50   Input ~ 0
+adr[0..14]
+NoConn ~ 2275 3950
+Wire Bus Line
+	3925 4050 3925 4250
+Wire Bus Line
+	2175 2550 2175 4050
+Wire Bus Line
+	3925 2350 3925 3850
 $EndSCHEMATC

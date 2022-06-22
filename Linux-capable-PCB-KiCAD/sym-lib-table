@@ -2,4 +2,5 @@
   (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/A33/eec.lib)(options "")(descr ""))
   (lib (name Linux-capable-PCB-KiCAD-rescue)(type Legacy)(uri ${KIPRJMOD}/Linux-capable-PCB-KiCAD-rescue.lib)(options "")(descr ""))
   (lib (name MIPI_DSI_Raspberry)(type Legacy)(uri ${KIPRJMOD}/MIPI_DSI_Raspberry.lib)(options "")(descr ""))
+  (lib (name H5TQ4G63AFR-PCB)(type Legacy)(uri ${KIPRJMOD}/H5TQ4G63AFR-PCB.lib)(options "")(descr ""))
 )

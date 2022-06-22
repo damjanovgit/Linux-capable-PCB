@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -310,8 +310,8 @@ $Comp
 L Linux-capable-PCB-KiCAD-rescue:R-device R?
 U 1 1 62AA4C81
 P 10750 5800
-F 0 "R?" V 10750 5800 50  0000 C CNN
-F 1 "200k" V 10700 5600 50  0000 C CNN
+F 0 "R?" V 10700 5575 50  0000 C CNN
+F 1 "200k" V 10750 5800 50  0000 C CNN
 F 2 "" V 10680 5800 50  0001 C CNN
 F 3 "" H 10750 5800 50  0001 C CNN
 	1    10750 5800
@@ -350,16 +350,6 @@ Wire Wire Line
 Connection ~ 11000 5800
 Wire Wire Line
 	11000 5800 11000 5950
-Wire Wire Line
-	10100 5800 10100 5950
-Wire Wire Line
-	10100 6150 10200 6150
-Connection ~ 10100 5800
-Wire Wire Line
-	10100 5950 10200 5950
-Connection ~ 10100 5950
-Wire Wire Line
-	10100 5950 10100 6150
 Wire Wire Line
 	10500 5950 11000 5950
 Connection ~ 11000 5950
@@ -471,9 +461,11 @@ Wire Wire Line
 Wire Wire Line
 	1100 1550 1100 1400
 $Comp
-L Connector:USB_A J?
+L Linux-capable-PCB-KiCAD-rescue:USB_A-Connector J?
 U 1 1 62AB417B
 P 5950 2750
+AR Path="/62AB417B" Ref="J?"  Part="1" 
+AR Path="/62FC6136/62AB417B" Ref="J?"  Part="1" 
 F 0 "J?" H 6007 3217 50  0000 C CNN
 F 1 "USB_A" H 6007 3126 50  0000 C CNN
 F 2 "" H 6100 2700 50  0001 C CNN
@@ -1039,7 +1031,7 @@ Wire Wire Line
 	5650 6400 6400 6400
 Connection ~ 6400 6300
 $Comp
-L device:Antenna_Dipole AE?
+L Linux-capable-PCB-KiCAD-rescue:Antenna_Dipole-device AE?
 U 1 1 62BDE556
 P 5875 5550
 F 0 "AE?" H 6105 5464 50  0000 L CNN
@@ -1134,4 +1126,15 @@ F 3 "" H 3300 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 2500 4325 2500
+Wire Wire Line
+	9900 5650 10000 5650
+Wire Wire Line
+	10000 5650 10000 5950
+Wire Wire Line
+	10000 5950 10200 5950
+Wire Wire Line
+	10000 5950 10000 6150
+Wire Wire Line
+	10000 6150 10200 6150
+Connection ~ 10000 5950
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -101,7 +101,7 @@ Wire Wire Line
 	6600 4200 6900 4200
 Connection ~ 6600 4200
 $Comp
-L device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-device C?
 U 1 1 62B23B89
 P 6900 4450
 F 0 "C?" H 7015 4496 50  0000 L CNN
@@ -132,7 +132,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3600 3300 3600
 $Comp
-L device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-device C?
 U 1 1 62B24ACF
 P 3000 3600
 F 0 "C?" V 2748 3600 50  0000 C CNN
@@ -143,7 +143,7 @@ F 3 "" H 3000 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L L?
+L Linux-capable-PCB-KiCAD-rescue:L-device L?
 U 1 1 62B2523E
 P 3300 3900
 F 0 "L?" H 3352 3946 50  0000 L CNN
@@ -197,7 +197,7 @@ Wire Wire Line
 	5450 1900 5350 1900
 Connection ~ 5350 1900
 $Comp
-L device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-device C?
 U 1 1 62B27ADB
 P 3800 2150
 F 0 "C?" H 3915 2196 50  0000 L CNN
@@ -229,7 +229,7 @@ Wire Wire Line
 	3800 1900 3450 1900
 Connection ~ 3800 1900
 $Comp
-L device:Crystal_GND23 Y?
+L Linux-capable-PCB-KiCAD-rescue:Crystal_GND23-device Y?
 U 1 1 62B29AE8
 P 6050 1900
 F 0 "Y?" H 6244 1946 50  0000 L CNN
@@ -282,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2100 6050 2150
 $Comp
-L device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-device C?
 U 1 1 62B2DA78
 P 5550 1450
 F 0 "C?" H 5665 1496 50  0000 L CNN
@@ -293,7 +293,7 @@ F 3 "" H 5550 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-device C?
 U 1 1 62B2DE8D
 P 6800 1450
 F 0 "C?" H 6915 1496 50  0000 L CNN
