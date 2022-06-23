@@ -1744,4 +1744,74 @@ Wire Bus Line
 	2175 2550 2175 4050
 Wire Bus Line
 	3925 2350 3925 3850
+Text Label 2325 2450 0    50   ~ 0
+adr0
+Text Label 2325 2550 0    50   ~ 0
+adr1
+Text Label 2325 2650 0    50   ~ 0
+adr2
+Text Label 2325 2750 0    50   ~ 0
+adr3
+Text Label 2325 2850 0    50   ~ 0
+adr4
+Text Label 2325 2950 0    50   ~ 0
+adr5
+Text Label 2325 3050 0    50   ~ 0
+adr6
+Text Label 2325 3150 0    50   ~ 0
+adr7
+Text Label 2325 3250 0    50   ~ 0
+adr8
+Text Label 2325 3350 0    50   ~ 0
+adr9
+Text Label 2300 3450 0    50   ~ 0
+adr10
+Text Label 2300 3550 0    50   ~ 0
+adr11
+Text Label 2300 3650 0    50   ~ 0
+adr12
+Text Label 2300 3750 0    50   ~ 0
+adr13
+Text Label 2300 3850 0    50   ~ 0
+adr14
+Text Label 2300 3950 0    50   ~ 0
+adr15
+Text Label 3625 2250 0    50   ~ 0
+d0
+Text Label 3625 2350 0    50   ~ 0
+d1
+Text Label 3625 2450 0    50   ~ 0
+d2
+Text Label 3625 2550 0    50   ~ 0
+d3
+Text Label 3625 2650 0    50   ~ 0
+d4
+Text Label 3625 2750 0    50   ~ 0
+d5
+Text Label 3625 2850 0    50   ~ 0
+d6
+Text Label 3625 2950 0    50   ~ 0
+d7
+Text Label 3625 3050 0    50   ~ 0
+d8
+Text Label 3625 3150 0    50   ~ 0
+d9
+Text Label 3625 3250 0    50   ~ 0
+d10
+Text Label 3625 3350 0    50   ~ 0
+d11
+Text Label 3625 3450 0    50   ~ 0
+d12
+Text Label 3625 3550 0    50   ~ 0
+d13
+Text Label 3625 3650 0    50   ~ 0
+d14
+Text Label 3625 3750 0    50   ~ 0
+d15
+Text Label 3625 3950 0    50   ~ 0
+dba0
+Text Label 3625 4050 0    50   ~ 0
+dba1
+Text Label 3625 4150 0    50   ~ 0
+dba2
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -1152,12 +1152,44 @@ Wire Wire Line
 	1825 2325 1500 2325
 Wire Wire Line
 	1500 2225 1825 2225
+Entry Bus Bus
+	1400 3725 1500 3625
+Text Label 1600 2225 0    0    ~ 0
+adr0
+Text Label 1575 2225 0    50   ~ 0
+adr0
+Text Label 1575 2325 0    50   ~ 0
+adr1
+Text Label 1575 2425 0    50   ~ 0
+adr2
+Text Label 1575 2525 0    50   ~ 0
+adr3
+Text Label 1575 2625 0    50   ~ 0
+adr4
+Text Label 1575 2725 0    50   ~ 0
+adr5
 Wire Bus Line
 	1425 3975 1425 4175
 Wire Bus Line
 	3150 2325 3150 3975
 Wire Bus Line
 	1400 2325 1400 3725
-Entry Bus Bus
-	1400 3725 1500 3625
+Text Label 1575 2825 0    50   ~ 0
+adr6
+Text Label 1575 2925 0    50   ~ 0
+adr7
+Text Label 1575 3025 0    50   ~ 0
+adr8
+Text Label 1575 3125 0    50   ~ 0
+adr9
+Text Label 1575 3225 0    50   ~ 0
+adr10
+Text Label 1575 3325 0    50   ~ 0
+adr11
+Text Label 1575 3425 0    50   ~ 0
+adr12
+Text Label 1575 3525 0    50   ~ 0
+adr13
+Text Label 1575 3625 0    50   ~ 0
+adr14
 $EndSCHEMATC

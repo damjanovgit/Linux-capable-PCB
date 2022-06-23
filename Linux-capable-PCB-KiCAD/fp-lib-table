@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MeanderedInvertedF2_4GHz)(type KiCad)(uri ${KIPRJMOD}/MeanderedInvertedF2_4GHz.pretty)(options "")(descr ""))
+)
