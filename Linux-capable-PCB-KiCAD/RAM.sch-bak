@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -251,7 +251,7 @@ Wire Wire Line
 	8925 1725 8925 2100
 Connection ~ 8925 2100
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62BE13A2
 P 8900 4950
 F 0 "C?" H 9015 4996 50  0000 L CNN
@@ -262,7 +262,7 @@ F 3 "~" H 8900 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62BE1762
 P 8500 4950
 F 0 "C?" H 8615 4996 50  0000 L CNN
@@ -273,7 +273,7 @@ F 3 "~" H 8500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62BE1A81
 P 8125 4950
 F 0 "C?" H 8240 4996 50  0000 L CNN
@@ -284,7 +284,7 @@ F 3 "~" H 8125 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62BE1D81
 P 8125 4425
 F 0 "C?" H 8240 4471 50  0000 L CNN
@@ -295,7 +295,7 @@ F 3 "~" H 8125 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Linux-capable-PCB-KiCAD-rescue:R-Device R?
 U 1 1 62BE24E5
 P 7675 4425
 F 0 "R?" H 7745 4471 50  0000 L CNN
@@ -306,7 +306,7 @@ F 3 "~" H 7675 4425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Linux-capable-PCB-KiCAD-rescue:R-Device R?
 U 1 1 62BE27AD
 P 7675 4975
 F 0 "R?" H 7745 5021 50  0000 L CNN
@@ -420,7 +420,7 @@ Wire Wire Line
 Wire Wire Line
 	7675 5200 7675 5125
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0BC5F
 P 4875 1975
 F 0 "C?" H 4990 2021 50  0000 L CNN
@@ -431,7 +431,7 @@ F 3 "~" H 4875 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0C552
 P 5250 1975
 F 0 "C?" H 5365 2021 50  0000 L CNN
@@ -442,7 +442,7 @@ F 3 "~" H 5250 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0C7A8
 P 5600 1975
 F 0 "C?" H 5715 2021 50  0000 L CNN
@@ -453,7 +453,7 @@ F 3 "~" H 5600 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0C991
 P 5950 1975
 F 0 "C?" H 6065 2021 50  0000 L CNN
@@ -464,7 +464,7 @@ F 3 "~" H 5950 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0CC3E
 P 6325 1975
 F 0 "C?" H 6440 2021 50  0000 L CNN
@@ -475,7 +475,7 @@ F 3 "~" H 6325 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0CE80
 P 6700 1975
 F 0 "C?" H 6815 2021 50  0000 L CNN
@@ -486,7 +486,7 @@ F 3 "~" H 6700 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0D122
 P 7050 1975
 F 0 "C?" H 7165 2021 50  0000 L CNN
@@ -497,7 +497,7 @@ F 3 "~" H 7050 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C0D37A
 P 4525 1975
 F 0 "C?" H 4640 2021 50  0000 L CNN
@@ -508,7 +508,7 @@ F 3 "~" H 4525 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C2165A
 P 7400 1975
 F 0 "C?" H 7515 2021 50  0000 L CNN
@@ -519,7 +519,7 @@ F 3 "~" H 7400 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C218DA
 P 7825 1975
 F 0 "C?" H 7940 2021 50  0000 L CNN
@@ -530,7 +530,7 @@ F 3 "~" H 7825 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C21B5B
 P 8225 1975
 F 0 "C?" H 8340 2021 50  0000 L CNN
@@ -541,7 +541,7 @@ F 3 "~" H 8225 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C21F63
 P 4150 1975
 F 0 "C?" H 4265 2021 50  0000 L CNN
@@ -552,7 +552,7 @@ F 3 "~" H 4150 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62C22190
 P 3750 1975
 F 0 "C?" H 3865 2021 50  0000 L CNN
@@ -806,7 +806,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2200 3750 2125
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62CB5246
 P 5725 3400
 F 0 "C?" H 5840 3446 50  0000 L CNN
@@ -817,7 +817,7 @@ F 3 "~" H 5725 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62CB59CC
 P 5225 3400
 F 0 "C?" H 5340 3446 50  0000 L CNN
@@ -876,7 +876,7 @@ Connection ~ 5500 3125
 Wire Wire Line
 	5500 3125 5725 3125
 $Comp
-L Device:R R?
+L Linux-capable-PCB-KiCAD-rescue:R-Device R?
 U 1 1 62CD311B
 P 3200 5125
 F 0 "R?" V 3300 5050 50  0000 C CNN

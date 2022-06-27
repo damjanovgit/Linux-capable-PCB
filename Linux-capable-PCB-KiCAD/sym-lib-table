@@ -4,4 +4,5 @@
   (lib (name MIPI_DSI_Raspberry)(type Legacy)(uri ${KIPRJMOD}/MIPI_DSI_Raspberry.lib)(options "")(descr ""))
   (lib (name H5TQ4G63AFR-PCB)(type Legacy)(uri ${KIPRJMOD}/H5TQ4G63AFR-PCB.lib)(options "")(descr ""))
   (lib (name MMA8425Q_Gsensor)(type Legacy)(uri ${KIPRJMOD}/MMA8425Q_Gsensor.lib)(options "")(descr ""))
+  (lib (name ti)(type Legacy)(uri C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/ti/ti.lib)(options "")(descr ""))
 )

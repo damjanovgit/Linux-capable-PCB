@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -903,50 +903,50 @@ Wire Wire Line
 Wire Wire Line
 	6300 4200 6300 4300
 $Sheet
-S 4675 5950 975  750 
+S 5025 5800 975  750 
 U 62B6FA43
 F0 "WiFi_chip" 50
 F1 "WiFi_chip.sch" 50
-F2 "SD_D1" I L 4675 6100 50 
-F3 "SD_D0" I L 4675 6200 50 
-F4 "SD_CLK" I L 4675 6300 50 
-F5 "SD_CMD" I L 4675 6400 50 
-F6 "SD_D3" I L 4675 6500 50 
-F7 "SD_D2" I L 4675 6600 50 
-F8 "WIFI_ANT" I R 5650 6100 50 
-F9 "WIFI_EN" I R 5650 6200 50 
-F10 "VDD33" I R 5650 6300 50 
-F11 "VDIO" I R 5650 6400 50 
+F2 "SD_D1" I L 5025 5950 50 
+F3 "SD_D0" I L 5025 6050 50 
+F4 "SD_CLK" I L 5025 6150 50 
+F5 "SD_CMD" I L 5025 6250 50 
+F6 "SD_D3" I L 5025 6350 50 
+F7 "SD_D2" I L 5025 6450 50 
+F8 "WIFI_ANT" I R 6000 5950 50 
+F9 "WIFI_EN" I R 6000 6050 50 
+F10 "VDD33" I R 6000 6150 50 
+F11 "VDIO" I R 6000 6250 50 
 $EndSheet
 Wire Wire Line
-	4675 6100 4425 6100
+	5025 5950 4775 5950
 Wire Wire Line
-	4675 6200 4425 6200
+	5025 6050 4775 6050
 Wire Wire Line
-	4675 6300 4425 6300
+	5025 6150 4775 6150
 Wire Wire Line
-	4675 6400 4425 6400
+	5025 6250 4775 6250
 Wire Wire Line
-	4675 6500 4425 6500
+	5025 6350 4775 6350
 Wire Wire Line
-	4675 6600 4425 6600
+	5025 6450 4775 6450
 Wire Wire Line
-	5650 6100 5875 6100
+	6000 5950 6225 5950
 Wire Wire Line
-	5650 6200 5875 6200
-Text Label 4425 6100 2    50   ~ 0
+	6000 6050 6225 6050
+Text Label 4775 5950 2    50   ~ 0
 SD_D1
-Text Label 4425 6200 2    50   ~ 0
+Text Label 4775 6050 2    50   ~ 0
 SD_D0
-Text Label 4425 6300 2    50   ~ 0
+Text Label 4775 6150 2    50   ~ 0
 SD_CLK
-Text Label 4425 6400 2    50   ~ 0
+Text Label 4775 6250 2    50   ~ 0
 SD_CMD
-Text Label 4425 6500 2    50   ~ 0
+Text Label 4775 6350 2    50   ~ 0
 SD_D3
-Text Label 4425 6600 2    50   ~ 0
+Text Label 4775 6450 2    50   ~ 0
 SD_D2
-Text Label 5875 6200 0    50   ~ 0
+Text Label 6225 6050 0    50   ~ 0
 WIFI_EN
 Wire Wire Line
 	2150 3600 2400 3600
@@ -979,49 +979,49 @@ WIFI_EN
 $Comp
 L power:+3V3 #PWR?
 U 1 1 62BC8F49
-P 6400 6275
-F 0 "#PWR?" H 6400 6125 50  0001 C CNN
-F 1 "+3V3" H 6415 6448 50  0000 C CNN
-F 2 "" H 6400 6275 50  0001 C CNN
-F 3 "" H 6400 6275 50  0001 C CNN
-	1    6400 6275
+P 6750 6125
+F 0 "#PWR?" H 6750 5975 50  0001 C CNN
+F 1 "+3V3" H 6765 6298 50  0000 C CNN
+F 2 "" H 6750 6125 50  0001 C CNN
+F 3 "" H 6750 6125 50  0001 C CNN
+	1    6750 6125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 6300 6400 6275
+	6750 6150 6750 6125
 Wire Wire Line
-	5650 6300 6400 6300
+	6000 6150 6750 6150
 Wire Wire Line
-	6400 6400 6400 6300
+	6750 6250 6750 6150
 Wire Wire Line
-	5650 6400 6400 6400
-Connection ~ 6400 6300
+	6000 6250 6750 6250
+Connection ~ 6750 6150
 $Comp
 L Linux-capable-PCB-KiCAD-rescue:Antenna_Dipole-device AE?
 U 1 1 62BDE556
-P 5875 5550
-F 0 "AE?" H 6105 5464 50  0000 L CNN
-F 1 "Antenna_Dipole" H 6105 5373 50  0000 L CNN
-F 2 "" H 5875 5550 50  0001 C CNN
-F 3 "" H 5875 5550 50  0001 C CNN
-	1    5875 5550
+P 6225 5400
+F 0 "AE?" H 6455 5314 50  0000 L CNN
+F 1 "Antenna_Dipole" H 6455 5223 50  0000 L CNN
+F 2 "" H 6225 5400 50  0001 C CNN
+F 3 "" H 6225 5400 50  0001 C CNN
+	1    6225 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5875 5750 5875 6100
+	6225 5600 6225 5950
 $Comp
 L power:GND #PWR?
 U 1 1 62BE7FC5
-P 5975 5875
-F 0 "#PWR?" H 5975 5625 50  0001 C CNN
-F 1 "GND" H 5980 5702 50  0000 C CNN
-F 2 "" H 5975 5875 50  0001 C CNN
-F 3 "" H 5975 5875 50  0001 C CNN
-	1    5975 5875
+P 6325 5725
+F 0 "#PWR?" H 6325 5475 50  0001 C CNN
+F 1 "GND" H 6330 5552 50  0000 C CNN
+F 2 "" H 6325 5725 50  0001 C CNN
+F 3 "" H 6325 5725 50  0001 C CNN
+	1    6325 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5975 5875 5975 5750
+	6325 5725 6325 5600
 $Comp
 L MIPI_DSI_Raspberry:MIPI_DSI_Raspberry U?
 U 1 1 62BF49A5
@@ -1325,7 +1325,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 5200 2650 5800
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62E6ABE1
 P 2750 4675
 F 0 "C?" H 2775 4750 50  0000 L CNN
@@ -1336,7 +1336,7 @@ F 3 "~" H 2750 4675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62E6B4D1
 P 2425 4675
 F 0 "C?" H 2450 4750 50  0000 L CNN
@@ -1388,7 +1388,7 @@ Wire Wire Line
 	3050 5000 3075 5000
 NoConn ~ 3075 5200
 $Comp
-L Device:C C?
+L Linux-capable-PCB-KiCAD-rescue:C-Device C?
 U 1 1 62ED2713
 P 4425 4525
 F 0 "C?" H 4450 4600 50  0000 L CNN
@@ -1666,4 +1666,161 @@ Wire Wire Line
 	10300 3325 10300 3250
 Wire Wire Line
 	10300 3250 10375 3250
+$Comp
+L Linux-capable-PCB-KiCAD-rescue:SRV05-4-Power_Protection U?
+U 1 1 6385EF93
+P 3625 7200
+F 0 "U?" H 3350 6750 50  0000 C CNN
+F 1 "SRV05-4" H 3325 7650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4325 6750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 3625 7200 50  0001 C CNN
+	1    3625 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Linux-capable-PCB-KiCAD-rescue:SRV05-4-Power_Protection U?
+U 1 1 63888063
+P 4925 7200
+F 0 "U?" H 4650 6750 50  0000 C CNN
+F 1 "SRV05-4" H 4675 7675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5625 6750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 4925 7200 50  0001 C CNN
+	1    4925 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Linux-capable-PCB-KiCAD-rescue:SRV05-4-Power_Protection U?
+U 1 1 6388A655
+P 6225 7200
+F 0 "U?" H 5950 6750 50  0000 C CNN
+F 1 "SRV05-4" H 5975 7675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6925 6750 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF" H 6225 7200 50  0001 C CNN
+	1    6225 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6388D4ED
+P 3625 6575
+F 0 "#PWR?" H 3625 6425 50  0001 C CNN
+F 1 "+3V3" H 3640 6748 50  0000 C CNN
+F 2 "" H 3625 6575 50  0001 C CNN
+F 3 "" H 3625 6575 50  0001 C CNN
+	1    3625 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 6575 3625 6675
+Wire Wire Line
+	6225 6700 6225 6675
+Wire Wire Line
+	6225 6675 4925 6675
+Connection ~ 3625 6675
+Wire Wire Line
+	3625 6675 3625 6700
+Wire Wire Line
+	4925 6700 4925 6675
+Connection ~ 4925 6675
+Wire Wire Line
+	4925 6675 3625 6675
+$Comp
+L power:GND #PWR?
+U 1 1 638CC320
+P 2875 7525
+F 0 "#PWR?" H 2875 7275 50  0001 C CNN
+F 1 "GND" H 2880 7352 50  0000 C CNN
+F 2 "" H 2875 7525 50  0001 C CNN
+F 3 "" H 2875 7525 50  0001 C CNN
+	1    2875 7525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 7525 2875 7475
+Wire Wire Line
+	2875 7475 3150 7475
+Wire Wire Line
+	3150 7475 3150 7725
+Wire Wire Line
+	3150 7725 3625 7725
+Wire Wire Line
+	6225 7725 6225 7700
+Wire Wire Line
+	4925 7700 4925 7725
+Connection ~ 4925 7725
+Wire Wire Line
+	4925 7725 6225 7725
+Wire Wire Line
+	3625 7700 3625 7725
+Connection ~ 3625 7725
+Wire Wire Line
+	3625 7725 4925 7725
+Wire Wire Line
+	3125 7100 3025 7100
+Wire Wire Line
+	3125 7300 3025 7300
+Wire Wire Line
+	5425 7100 5525 7100
+Wire Wire Line
+	5425 7300 5525 7300
+Wire Wire Line
+	5725 7100 5625 7100
+Wire Wire Line
+	5725 7300 5625 7300
+Wire Wire Line
+	4125 7100 4225 7100
+Wire Wire Line
+	4125 7300 4225 7300
+Wire Wire Line
+	4425 7100 4325 7100
+Wire Wire Line
+	4425 7300 4325 7300
+Wire Wire Line
+	6725 7100 6850 7100
+Wire Wire Line
+	6725 7300 6850 7300
+Text Label 3025 7100 2    50   ~ 0
+UART0_TX
+Text Label 3025 7300 2    50   ~ 0
+UART0_RX
+Text Label 4225 6975 2    50   ~ 0
+GPIO1
+Wire Wire Line
+	4225 6975 4225 7100
+Text Label 4225 7550 2    50   ~ 0
+GPIO2
+Wire Wire Line
+	4225 7300 4225 7550
+Text Label 4325 6975 0    50   ~ 0
+GPIO3
+Wire Wire Line
+	4325 6975 4325 7100
+Text Label 4325 7550 0    50   ~ 0
+GPIO4
+Wire Wire Line
+	4325 7300 4325 7550
+Text Label 5525 6950 2    50   ~ 0
+GPIO5
+Wire Wire Line
+	5525 6950 5525 7100
+Text Label 5525 7550 2    50   ~ 0
+GPIO6
+Wire Wire Line
+	5525 7300 5525 7550
+Text Label 5625 6950 0    50   ~ 0
+GPIO7
+Wire Wire Line
+	5625 6950 5625 7100
+Text Label 5625 7550 0    50   ~ 0
+GPIO8
+Wire Wire Line
+	5625 7550 5625 7300
+Text Label 6850 6950 2    50   ~ 0
+GPIO9
+Wire Wire Line
+	6850 6950 6850 7100
+Text Label 6850 7550 2    50   ~ 0
+GPIO10
+Wire Wire Line
+	6850 7550 6850 7300
 $EndSCHEMATC
