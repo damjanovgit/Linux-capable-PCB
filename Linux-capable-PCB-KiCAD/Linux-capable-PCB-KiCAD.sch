@@ -119,7 +119,7 @@ U 2 1 62A4C368
 P 9100 1250
 F 0 "U1" H 9950 1515 50  0000 C CNN
 F 1 "A33" H 9950 1424 50  0000 C CNN
-F 2 "Allwinner_Technology_Co.,_Ltd.-A33-*" H 9100 1650 50  0001 L CNN
+F 2 "eec:Allwinner_Technology_Co.,_Ltd.-A33-0" H 9100 1650 50  0001 L CNN
 F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 9100 1750 50  0001 L CNN
 F 4 "1.8V ~ 3.3V" H 9100 1850 50  0001 L CNN "DC Supply Voltage for I/O"
 F 5 "IC" H 9100 1950 50  0001 L CNN "category"
@@ -1568,7 +1568,7 @@ U 1 1 62A072CA
 P 2400 2250
 F 0 "U1" H 3050 2515 50  0000 C CNN
 F 1 "A33" H 3050 2424 50  0000 C CNN
-F 2 "Allwinner_Technology_Co.,_Ltd.-A33-*" H 2400 2650 50  0001 L CNN
+F 2 "eec:Allwinner_Technology_Co.,_Ltd.-A33-0" H 2400 2650 50  0001 L CNN
 F 3 "http://dl.linux-sunxi.org/A33/A33_Datasheet_release1.0.pdf" H 2400 2750 50  0001 L CNN
 F 4 "1.8V ~ 3.3V" H 2400 2850 50  0001 L CNN "DC Supply Voltage for I/O"
 F 5 "IC" H 2400 2950 50  0001 L CNN "category"
@@ -1814,12 +1814,6 @@ U 6385BAA8
 F0 "PowerSupply" 50
 F1 "PowerSupply.sch" 50
 $EndSheet
-Wire Bus Line
-	3925 4050 3925 4250
-Wire Bus Line
-	2175 2550 2175 4050
-Wire Bus Line
-	3925 2350 3925 3850
 $Comp
 L Mechanical:Mounting_Hole MK1
 U 1 1 631C2B6C
@@ -1864,4 +1858,10 @@ F 3 "" H 4100 1800 50  0001 C CNN
 	1    4100 1800
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	3925 4050 3925 4250
+Wire Bus Line
+	2175 2550 2175 4050
+Wire Bus Line
+	3925 2350 3925 3850
 $EndSCHEMATC
