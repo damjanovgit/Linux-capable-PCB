@@ -917,9 +917,9 @@ Text HLabel 1475 5075 0    50   Input ~ 0
 Text HLabel 1475 4875 0    50   Input ~ 0
 ~CKE
 Text HLabel 1475 4675 0    50   Input ~ 0
-CK
+CK_P
 Text HLabel 1475 4575 0    50   Input ~ 0
-~CK
+CK_N
 Text HLabel 1475 4375 0    50   Input ~ 0
 ~RAS
 Text HLabel 1475 4275 0    50   Input ~ 0

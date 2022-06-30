@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\dprerad\Desktop\MasterRad\Linux-capable-PCB\Linux-capable-PCB-KiCAD\Linux-capable-PCB-KiCAD.sch)
-    (date "6/28/2022 2:06:03 PM")
+    (date "6/30/2022 5:03:55 PM")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2290,7 +2290,7 @@
     (net (code 12) (name /RAM/~CS)
       (node (ref U8) (pin L2))
       (node (ref U1) (pin N3)))
-    (net (code 13) (name /RAM/CK)
+    (net (code 13) (name /RAM/CK_P)
       (node (ref U8) (pin J7))
       (node (ref R3) (pin 2)))
     (net (code 14) (name +1V35)
@@ -2362,7 +2362,7 @@
     (net (code 19) (name "Net-(R4-Pad1)")
       (node (ref U1) (pin G2))
       (node (ref R4) (pin 1)))
-    (net (code 20) (name /RAM/~CK)
+    (net (code 20) (name /RAM/CK_N)
       (node (ref U8) (pin K7))
       (node (ref R4) (pin 2)))
     (net (code 21) (name "Net-(R3-Pad1)")
