@@ -1788,20 +1788,16 @@ Text Label 3625 2950 0    50   ~ 0
 d7
 Text Label 3625 3050 0    50   ~ 0
 d8
-Text Label 3625 3150 0    50   ~ 0
+Text Label 3625 3450 0    50   ~ 0
 d9
 Text Label 3625 3250 0    50   ~ 0
 d10
-Text Label 3625 3350 0    50   ~ 0
-d11
-Text Label 3625 3450 0    50   ~ 0
-d12
-Text Label 3625 3550 0    50   ~ 0
-d13
 Text Label 3625 3650 0    50   ~ 0
+d11
+Text Label 3625 3150 0    50   ~ 0
+d12
+Text Label 3625 3350 0    50   ~ 0
 d14
-Text Label 3625 3750 0    50   ~ 0
-d15
 Text Label 3625 3950 0    50   ~ 0
 dba0
 Text Label 3625 4050 0    50   ~ 0
@@ -1868,4 +1864,8 @@ Text Label 2425 4950 1    50   ~ 0
 DCK_P
 Text Label 2425 5050 3    50   ~ 0
 DCK_N
+Text Label 3625 3750 0    50   ~ 0
+d15
+Text Label 3625 3550 0    50   ~ 0
+d13
 $EndSCHEMATC

@@ -1060,13 +1060,13 @@ Text Label 2875 3375 0    50   ~ 0
 d10
 Text Label 2875 3475 0    50   ~ 0
 d11
-Text Label 2875 3575 0    50   ~ 0
-d12
-Text Label 2875 3675 0    50   ~ 0
-d13
 Text Label 2875 3775 0    50   ~ 0
-d14
+d12
 Text Label 2875 3875 0    50   ~ 0
+d13
+Text Label 2875 3575 0    50   ~ 0
+d14
+Text Label 2875 3675 0    50   ~ 0
 d15
 Entry Bus Bus
 	1425 3975 1525 3875
