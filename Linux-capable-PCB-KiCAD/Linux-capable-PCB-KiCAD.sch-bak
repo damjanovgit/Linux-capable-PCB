@@ -89,17 +89,6 @@ $EndComp
 Wire Wire Line
 	1400 2700 1400 2650
 Connection ~ 1400 2650
-$Comp
-L power:+1V35 #PWR0102
-U 1 1 62A1AEBE
-P 1400 1800
-F 0 "#PWR0102" H 1400 1650 50  0001 C CNN
-F 1 "+1V35" H 1415 1973 50  0000 C CNN
-F 2 "" H 1400 1800 50  0001 C CNN
-F 3 "" H 1400 1800 50  0001 C CNN
-	1    1400 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 1850 1400 1800
 Connection ~ 1400 1850
@@ -1653,38 +1642,6 @@ Wire Bus Line
 	2175 4050 1975 4050
 Wire Wire Line
 	3600 2250 3825 2250
-Entry Bus Bus
-	3825 2250 3925 2350
-Entry Bus Bus
-	3825 2350 3925 2450
-Entry Bus Bus
-	3825 2450 3925 2550
-Entry Bus Bus
-	3825 2550 3925 2650
-Entry Bus Bus
-	3825 2650 3925 2750
-Entry Bus Bus
-	3825 2750 3925 2850
-Entry Bus Bus
-	3825 2850 3925 2950
-Entry Bus Bus
-	3825 2950 3925 3050
-Entry Bus Bus
-	3825 3050 3925 3150
-Entry Bus Bus
-	3825 3150 3925 3250
-Entry Bus Bus
-	3825 3250 3925 3350
-Entry Bus Bus
-	3825 3350 3925 3450
-Entry Bus Bus
-	3825 3450 3925 3550
-Entry Bus Bus
-	3825 3550 3925 3650
-Entry Bus Bus
-	3825 3650 3925 3750
-Entry Bus Bus
-	3825 3750 3925 3850
 Wire Wire Line
 	3600 3750 3825 3750
 Wire Wire Line
@@ -1715,8 +1672,6 @@ Wire Wire Line
 	3600 2450 3825 2450
 Wire Wire Line
 	3600 2350 3825 2350
-Wire Bus Line
-	3925 3850 4150 3850
 Wire Wire Line
 	3600 3950 3825 3950
 Wire Wire Line
@@ -1731,8 +1686,6 @@ Entry Bus Bus
 	3825 4150 3925 4250
 Wire Bus Line
 	3925 4250 4150 4250
-Text GLabel 4150 3850 2    50   Input ~ 0
-d[0..15]
 Text GLabel 4150 4250 2    50   Input ~ 0
 dba[0..2]
 Text GLabel 1975 4050 0    50   Input ~ 0
@@ -1788,13 +1741,13 @@ Text Label 3625 2950 0    50   ~ 0
 d7
 Text Label 3625 3050 0    50   ~ 0
 d8
-Text Label 3625 3150 0    50   ~ 0
+Text Label 3625 3450 0    50   ~ 0
 d9
 Text Label 3625 3250 0    50   ~ 0
 d10
 Text Label 3625 3350 0    50   ~ 0
 d11
-Text Label 3625 3450 0    50   ~ 0
+Text Label 3625 3150 0    50   ~ 0
 d12
 Text Label 3625 3650 0    50   ~ 0
 d14
@@ -1854,12 +1807,6 @@ F 3 "" H 4100 1800 50  0001 C CNN
 	1    4100 1800
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3925 4050 3925 4250
-Wire Bus Line
-	2175 2550 2175 4050
-Wire Bus Line
-	3925 2350 3925 3850
 Text Label 2425 4950 1    50   ~ 0
 DCK_P
 Text Label 2425 5050 3    50   ~ 0
@@ -1868,4 +1815,65 @@ Text Label 3625 3750 0    50   ~ 0
 d15
 Text Label 3625 3550 0    50   ~ 0
 d13
+$Comp
+L power:+1V5 #PWR0102
+U 1 1 62C64FCF
+P 1400 1800
+F 0 "#PWR0102" H 1400 1650 50  0001 C CNN
+F 1 "+1V5" H 1415 1973 50  0000 C CNN
+F 2 "" H 1400 1800 50  0001 C CNN
+F 3 "" H 1400 1800 50  0001 C CNN
+	1    1400 1800
+	1    0    0    -1  
+$EndComp
+Text Label 4375 4800 1    50   ~ 0
+DQS1_P
+Text Label 4250 4800 1    50   ~ 0
+DQS1_N
+Text Label 3975 5100 1    50   ~ 0
+DQS0_P
+Text Label 3850 5100 1    50   ~ 0
+DQS0_N
+Wire Bus Line
+	3925 4050 3925 4250
+Wire Bus Line
+	2175 2550 2175 4050
+Wire Bus Line
+	3925 2350 3925 3850
+Text GLabel 4150 3850 2    50   Input ~ 0
+d[0..15]
+Wire Bus Line
+	3925 3850 4150 3850
+Entry Bus Bus
+	3825 3750 3925 3850
+Entry Bus Bus
+	3825 3650 3925 3750
+Entry Bus Bus
+	3825 3550 3925 3650
+Entry Bus Bus
+	3825 3450 3925 3550
+Entry Bus Bus
+	3825 3350 3925 3450
+Entry Bus Bus
+	3825 3250 3925 3350
+Entry Bus Bus
+	3825 3150 3925 3250
+Entry Bus Bus
+	3825 3050 3925 3150
+Entry Bus Bus
+	3825 2950 3925 3050
+Entry Bus Bus
+	3825 2850 3925 2950
+Entry Bus Bus
+	3825 2750 3925 2850
+Entry Bus Bus
+	3825 2650 3925 2750
+Entry Bus Bus
+	3825 2550 3925 2650
+Entry Bus Bus
+	3825 2450 3925 2550
+Entry Bus Bus
+	3825 2350 3925 2450
+Entry Bus Bus
+	3825 2250 3925 2350
 $EndSCHEMATC
