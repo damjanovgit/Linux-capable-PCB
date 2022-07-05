@@ -136,4 +136,5 @@
   (lib (name Valve)(type KiCad)(uri C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/kicad-footprints-v5/Valve.pretty)(options "")(descr ""))
   (lib (name Varistor)(type KiCad)(uri C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/kicad-footprints-v5/Varistor.pretty)(options "")(descr ""))
   (lib (name eec)(type KiCad)(uri C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/A33/eec.pretty)(options "")(descr ""))
+  (lib (name Small2_4GHz_PCB_Antenna)(type KiCad)(uri ${KIPRJMOD}/Small2_4GHz_PCB_Antenna.pretty)(options "")(descr ""))
 )
