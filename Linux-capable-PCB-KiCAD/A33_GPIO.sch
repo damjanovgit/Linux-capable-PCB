@@ -1540,8 +1540,6 @@ Wire Wire Line
 Connection ~ 6400 2200
 Wire Wire Line
 	6400 2200 6400 2550
-Wire Wire Line
-	8000 1100 8350 1100
 Connection ~ 8000 1100
 Connection ~ 8350 1100
 NoConn ~ 1250 1200
@@ -1823,4 +1821,19 @@ Text Label 6850 7550 2    50   ~ 0
 GPIO10
 Wire Wire Line
 	6850 7550 6850 7300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62CFA384
+P 8350 1000
+F 0 "#PWR?" H 8350 850 50  0001 C CNN
+F 1 "+3V3" H 8365 1173 50  0000 C CNN
+F 2 "" H 8350 1000 50  0001 C CNN
+F 3 "" H 8350 1000 50  0001 C CNN
+	1    8350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1100 8350 1100
+Wire Wire Line
+	8350 1000 8350 1100
 $EndSCHEMATC

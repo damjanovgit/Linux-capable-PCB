@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:L L2
+L Linux-capable-PCB-KiCAD-rescue:L-device L2
 U 1 1 62BC413B
 P 3850 1275
 F 0 "L2" V 4040 1275 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 3850 1275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C68
+L Linux-capable-PCB-KiCAD-rescue:C-device C68
 U 1 1 62BC65CC
 P 2225 1075
 F 0 "C68" H 2340 1121 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "" H 2225 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C76
+L Linux-capable-PCB-KiCAD-rescue:C-device C76
 U 1 1 62BC712D
 P 4975 1500
 F 0 "C76" H 5090 1546 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "" H 4975 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C79
+L Linux-capable-PCB-KiCAD-rescue:C-device C79
 U 1 1 62BC79BD
 P 5375 1500
 F 0 "C79" H 5490 1546 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "" H 5375 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R24
+L Linux-capable-PCB-KiCAD-rescue:R-device R24
 U 1 1 62BC7E36
 P 4600 1475
 F 0 "R24" H 4670 1521 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "" H 4600 1475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R25
+L Linux-capable-PCB-KiCAD-rescue:R-device R25
 U 1 1 62BC8763
 P 4600 1875
 F 0 "R25" H 4670 1921 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "" H 5375 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R29
+L Linux-capable-PCB-KiCAD-rescue:R-device R29
 U 1 1 62BCAAD8
 P 5800 1275
 F 0 "R29" V 5593 1275 50  0000 C CNN
@@ -157,7 +157,7 @@ F 3 "" H 6100 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L regul:AP131-25 U11
+L Linux-capable-PCB-KiCAD-rescue:AP131-25-regul U11
 U 1 1 62C1D46A
 P 4225 5175
 F 0 "U11" H 4225 5517 50  0000 C CNN
@@ -168,7 +168,7 @@ F 3 "http://www.diodes.com/_files/datasheets/AP131.pdf" H 4225 5175 50  0001 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C74
+L Linux-capable-PCB-KiCAD-rescue:C-device C74
 U 1 1 62C1F215
 P 3500 5350
 F 0 "C74" H 3615 5396 50  0000 L CNN
@@ -179,7 +179,7 @@ F 3 "" H 3500 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C78
+L Linux-capable-PCB-KiCAD-rescue:C-device C78
 U 1 1 62C1F9F5
 P 5200 5350
 F 0 "C78" H 5315 5396 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "" H 5200 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C75
+L Linux-capable-PCB-KiCAD-rescue:C-device C75
 U 1 1 62C203F0
 P 4750 5350
 F 0 "C75" H 4865 5396 50  0000 L CNN
@@ -297,7 +297,7 @@ F 3 "" H 5625 4975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R28
+L Linux-capable-PCB-KiCAD-rescue:R-device R28
 U 1 1 62C9F818
 P 5425 5075
 F 0 "R28" V 5218 5075 50  0000 C CNN
@@ -315,7 +315,7 @@ Wire Wire Line
 Wire Wire Line
 	5625 5075 5625 4975
 $Comp
-L Connector:Barrel_Jack J7
+L Linux-capable-PCB-KiCAD-rescue:Barrel_Jack-Connector J7
 U 1 1 62CD6E53
 P 1325 5075
 F 0 "J7" H 1404 5400 50  0000 C CNN
@@ -356,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 4550 1775 4850
 $Comp
-L device:C C67
+L Linux-capable-PCB-KiCAD-rescue:C-device C67
 U 1 1 62CFF74E
 P 1950 5075
 F 0 "C67" H 2065 5121 50  0000 L CNN
@@ -373,7 +373,7 @@ Connection ~ 1775 5300
 Wire Wire Line
 	1775 5300 1775 5600
 $Comp
-L device:C C72
+L Linux-capable-PCB-KiCAD-rescue:C-device C72
 U 1 1 62D1A992
 P 2425 5075
 F 0 "C72" H 2540 5121 50  0000 L CNN
@@ -402,7 +402,7 @@ Connection ~ 1950 4850
 Wire Wire Line
 	1950 4850 2425 4850
 $Comp
-L device:C C73
+L Linux-capable-PCB-KiCAD-rescue:C-device C73
 U 1 1 62D64A42
 P 2925 5075
 F 0 "C73" H 3040 5121 50  0000 L CNN
@@ -423,7 +423,7 @@ Wire Wire Line
 	2925 5300 2425 5300
 Connection ~ 2425 5300
 $Comp
-L dc-dc:TPS62130 U9
+L Linux-capable-PCB-KiCAD-rescue:TPS62130-dc-dc U9
 U 1 1 62DE493B
 P 3200 1475
 F 0 "U9" H 2950 1925 50  0000 C CNN
@@ -442,7 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	4075 1275 4000 1275
 $Comp
-L device:R R22
+L Linux-capable-PCB-KiCAD-rescue:R-device R22
 U 1 1 62E0D77F
 P 4225 1425
 F 0 "R22" H 4295 1471 50  0000 L CNN
@@ -545,7 +545,7 @@ Connection ~ 2225 900
 Wire Wire Line
 	2225 900  2225 925 
 $Comp
-L device:C C65
+L Linux-capable-PCB-KiCAD-rescue:C-device C65
 U 1 1 62F544E5
 P 1775 1075
 F 0 "C65" H 1890 1121 50  0000 L CNN
@@ -573,7 +573,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 900  2225 900 
 $Comp
-L device:C C70
+L Linux-capable-PCB-KiCAD-rescue:C-device C70
 U 1 1 62F72FB4
 P 2425 1700
 F 0 "C70" H 2600 1600 50  0000 R CNN
@@ -607,7 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 1275 5950 1275
 $Comp
-L device:L L3
+L Linux-capable-PCB-KiCAD-rescue:L-device L3
 U 1 1 62FEEF27
 P 3850 3175
 F 0 "L3" V 4040 3175 50  0000 C CNN
@@ -618,7 +618,7 @@ F 3 "" H 3850 3175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C69
+L Linux-capable-PCB-KiCAD-rescue:C-device C69
 U 1 1 62FEEF31
 P 2225 2975
 F 0 "C69" H 2340 3021 50  0000 L CNN
@@ -629,7 +629,7 @@ F 3 "" H 2225 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C77
+L Linux-capable-PCB-KiCAD-rescue:C-device C77
 U 1 1 62FEEF3B
 P 4975 3400
 F 0 "C77" H 5090 3446 50  0000 L CNN
@@ -640,7 +640,7 @@ F 3 "" H 4975 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C80
+L Linux-capable-PCB-KiCAD-rescue:C-device C80
 U 1 1 62FEEF45
 P 5375 3400
 F 0 "C80" H 5490 3446 50  0000 L CNN
@@ -651,7 +651,7 @@ F 3 "" H 5375 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R26
+L Linux-capable-PCB-KiCAD-rescue:R-device R26
 U 1 1 62FEEF4F
 P 4600 3375
 F 0 "R26" H 4670 3421 50  0000 L CNN
@@ -662,7 +662,7 @@ F 3 "" H 4600 3375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R27
+L Linux-capable-PCB-KiCAD-rescue:R-device R27
 U 1 1 62FEEF59
 P 4600 3775
 F 0 "R27" H 4670 3821 50  0000 L CNN
@@ -717,7 +717,7 @@ F 3 "" H 5375 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R30
+L Linux-capable-PCB-KiCAD-rescue:R-device R30
 U 1 1 62FEEF8B
 P 5800 3175
 F 0 "R30" V 5593 3175 50  0000 C CNN
@@ -739,7 +739,7 @@ F 3 "" H 2225 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dc-dc:TPS62130 U10
+L Linux-capable-PCB-KiCAD-rescue:TPS62130-dc-dc U10
 U 1 1 62FEEFA9
 P 3200 3375
 F 0 "U10" H 2950 3825 50  0000 C CNN
@@ -758,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	4075 3175 4000 3175
 $Comp
-L device:R R23
+L Linux-capable-PCB-KiCAD-rescue:R-device R23
 U 1 1 62FEEFB7
 P 4225 3325
 F 0 "R23" H 4295 3371 50  0000 L CNN
@@ -861,7 +861,7 @@ Connection ~ 2225 2800
 Wire Wire Line
 	2225 2800 2225 2825
 $Comp
-L device:C C66
+L Linux-capable-PCB-KiCAD-rescue:C-device C66
 U 1 1 62FEF007
 P 1775 2975
 F 0 "C66" H 1890 3021 50  0000 L CNN
@@ -889,7 +889,7 @@ Wire Wire Line
 Wire Wire Line
 	1775 2800 2225 2800
 $Comp
-L device:C C71
+L Linux-capable-PCB-KiCAD-rescue:C-device C71
 U 1 1 62FEF01E
 P 2425 3600
 F 0 "C71" H 2600 3500 50  0000 R CNN
@@ -934,7 +934,7 @@ F 3 "" H 6100 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:L L5
+L Linux-capable-PCB-KiCAD-rescue:L-device L5
 U 1 1 63044212
 P 8600 1325
 F 0 "L5" V 8790 1325 50  0000 C CNN
@@ -945,7 +945,7 @@ F 3 "" H 8600 1325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C84
+L Linux-capable-PCB-KiCAD-rescue:C-device C84
 U 1 1 6304422E
 P 6975 1125
 F 0 "C84" H 7090 1171 50  0000 L CNN
@@ -956,7 +956,7 @@ F 3 "" H 6975 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C88
+L Linux-capable-PCB-KiCAD-rescue:C-device C88
 U 1 1 63044238
 P 9725 1550
 F 0 "C88" H 9840 1596 50  0000 L CNN
@@ -967,7 +967,7 @@ F 3 "" H 9725 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C90
+L Linux-capable-PCB-KiCAD-rescue:C-device C90
 U 1 1 63044242
 P 10125 1550
 F 0 "C90" H 10240 1596 50  0000 L CNN
@@ -978,7 +978,7 @@ F 3 "" H 10125 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R35
+L Linux-capable-PCB-KiCAD-rescue:R-device R35
 U 1 1 6304424C
 P 9350 1525
 F 0 "R35" H 9420 1571 50  0000 L CNN
@@ -989,7 +989,7 @@ F 3 "" H 9350 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R36
+L Linux-capable-PCB-KiCAD-rescue:R-device R36
 U 1 1 63044256
 P 9350 1925
 F 0 "R36" H 9420 1971 50  0000 L CNN
@@ -1044,7 +1044,7 @@ F 3 "" H 10125 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R38
+L Linux-capable-PCB-KiCAD-rescue:R-device R38
 U 1 1 63044288
 P 10550 1325
 F 0 "R38" V 10343 1325 50  0000 C CNN
@@ -1066,7 +1066,7 @@ F 3 "" H 6975 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dc-dc:TPS62130 U13
+L Linux-capable-PCB-KiCAD-rescue:TPS62130-dc-dc U13
 U 1 1 630442A6
 P 7950 1525
 F 0 "U13" H 7700 1975 50  0000 C CNN
@@ -1085,7 +1085,7 @@ Wire Wire Line
 Wire Wire Line
 	8825 1325 8750 1325
 $Comp
-L device:R R32
+L Linux-capable-PCB-KiCAD-rescue:R-device R32
 U 1 1 630442B4
 P 8975 1475
 F 0 "R32" H 9045 1521 50  0000 L CNN
@@ -1188,7 +1188,7 @@ Connection ~ 6975 950
 Wire Wire Line
 	6975 950  6975 975 
 $Comp
-L device:C C82
+L Linux-capable-PCB-KiCAD-rescue:C-device C82
 U 1 1 63044304
 P 6525 1125
 F 0 "C82" H 6640 1171 50  0000 L CNN
@@ -1216,7 +1216,7 @@ Wire Wire Line
 Wire Wire Line
 	6525 950  6975 950 
 $Comp
-L device:C C86
+L Linux-capable-PCB-KiCAD-rescue:C-device C86
 U 1 1 6304431B
 P 7175 1750
 F 0 "C86" H 7350 1650 50  0000 R CNN
@@ -1250,7 +1250,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 1325 10700 1325
 $Comp
-L device:L L4
+L Linux-capable-PCB-KiCAD-rescue:L-device L4
 U 1 1 630969E4
 P 8525 3225
 F 0 "L4" V 8715 3225 50  0000 C CNN
@@ -1261,7 +1261,7 @@ F 3 "" H 8525 3225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C C83
+L Linux-capable-PCB-KiCAD-rescue:C-device C83
 U 1 1 63096A00
 P 6900 3025
 F 0 "C83" H 7015 3071 50  0000 L CNN
@@ -1272,7 +1272,7 @@ F 3 "" H 6900 3025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C87
+L Linux-capable-PCB-KiCAD-rescue:C-device C87
 U 1 1 63096A0A
 P 9650 3450
 F 0 "C87" H 9765 3496 50  0000 L CNN
@@ -1283,7 +1283,7 @@ F 3 "" H 9650 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C89
+L Linux-capable-PCB-KiCAD-rescue:C-device C89
 U 1 1 63096A14
 P 10050 3450
 F 0 "C89" H 10165 3496 50  0000 L CNN
@@ -1294,7 +1294,7 @@ F 3 "" H 10050 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R33
+L Linux-capable-PCB-KiCAD-rescue:R-device R33
 U 1 1 63096A1E
 P 9275 3425
 F 0 "R33" H 9345 3471 50  0000 L CNN
@@ -1305,7 +1305,7 @@ F 3 "" H 9275 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R34
+L Linux-capable-PCB-KiCAD-rescue:R-device R34
 U 1 1 63096A28
 P 9275 3825
 F 0 "R34" H 9345 3871 50  0000 L CNN
@@ -1360,7 +1360,7 @@ F 3 "" H 10050 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R37
+L Linux-capable-PCB-KiCAD-rescue:R-device R37
 U 1 1 63096A5A
 P 10475 3225
 F 0 "R37" V 10268 3225 50  0000 C CNN
@@ -1382,7 +1382,7 @@ F 3 "" H 6900 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dc-dc:TPS62130 U12
+L Linux-capable-PCB-KiCAD-rescue:TPS62130-dc-dc U12
 U 1 1 63096A6E
 P 7875 3425
 F 0 "U12" H 7625 3875 50  0000 C CNN
@@ -1401,7 +1401,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 3225 8675 3225
 $Comp
-L device:R R31
+L Linux-capable-PCB-KiCAD-rescue:R-device R31
 U 1 1 63096A7C
 P 8900 3375
 F 0 "R31" H 8970 3421 50  0000 L CNN
@@ -1504,7 +1504,7 @@ Connection ~ 6900 2850
 Wire Wire Line
 	6900 2850 6900 2875
 $Comp
-L device:C C81
+L Linux-capable-PCB-KiCAD-rescue:C-device C81
 U 1 1 63096ACC
 P 6450 3025
 F 0 "C81" H 6565 3071 50  0000 L CNN
@@ -1532,7 +1532,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 2850 6900 2850
 $Comp
-L device:C C85
+L Linux-capable-PCB-KiCAD-rescue:C-device C85
 U 1 1 63096AE3
 P 7100 3650
 F 0 "C85" H 7275 3550 50  0000 R CNN
@@ -1613,7 +1613,7 @@ Wire Wire Line
 Wire Wire Line
 	7875 4025 7875 4075
 $Comp
-L Connector:Test_Point TP4
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP4
 U 1 1 6317DC3B
 P 5375 950
 F 0 "TP4" H 5433 1068 50  0000 L CNN
@@ -1626,7 +1626,7 @@ $EndComp
 Wire Wire Line
 	5375 950  5375 1275
 $Comp
-L Connector:Test_Point TP7
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP7
 U 1 1 6318B766
 P 10125 1000
 F 0 "TP7" H 10183 1118 50  0000 L CNN
@@ -1639,7 +1639,7 @@ $EndComp
 Wire Wire Line
 	10125 1000 10125 1325
 $Comp
-L Connector:Test_Point TP6
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP6
 U 1 1 63198008
 P 10050 2900
 F 0 "TP6" H 10108 3018 50  0000 L CNN
@@ -1652,7 +1652,7 @@ $EndComp
 Wire Wire Line
 	10050 2900 10050 3225
 $Comp
-L Connector:Test_Point TP5
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP5
 U 1 1 631A49EB
 P 5375 2850
 F 0 "TP5" H 5433 2968 50  0000 L CNN
@@ -1665,7 +1665,7 @@ $EndComp
 Wire Wire Line
 	5375 2850 5375 3175
 $Comp
-L Connector:Test_Point TP3
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP3
 U 1 1 631B3B9B
 P 5200 4750
 F 0 "TP3" H 5258 4868 50  0000 L CNN
@@ -1678,7 +1678,7 @@ $EndComp
 Wire Wire Line
 	5200 4750 5200 5075
 $Comp
-L Connector:Test_Point TP2
+L Linux-capable-PCB-KiCAD-rescue:Test_Point-Connector TP2
 U 1 1 631C6D49
 P 2925 4525
 F 0 "TP2" H 2983 4643 50  0000 L CNN

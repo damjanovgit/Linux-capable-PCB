@@ -1764,7 +1764,7 @@ F0 "PowerSupply" 50
 F1 "PowerSupply.sch" 50
 $EndSheet
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Linux-capable-PCB-KiCAD-rescue:Mounting_Hole-Mechanical MK1
 U 1 1 631C2B6C
 P 4100 900
 F 0 "MK1" H 4200 946 50  0000 L CNN
@@ -1775,7 +1775,7 @@ F 3 "" H 4100 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Linux-capable-PCB-KiCAD-rescue:Mounting_Hole-Mechanical MK2
 U 1 1 631C3505
 P 4100 1200
 F 0 "MK2" H 4200 1246 50  0000 L CNN
@@ -1786,7 +1786,7 @@ F 3 "" H 4100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Linux-capable-PCB-KiCAD-rescue:Mounting_Hole-Mechanical MK3
 U 1 1 631C36AB
 P 4100 1500
 F 0 "MK3" H 4200 1546 50  0000 L CNN
@@ -1797,7 +1797,7 @@ F 3 "" H 4100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Linux-capable-PCB-KiCAD-rescue:Mounting_Hole-Mechanical MK4
 U 1 1 631C390C
 P 4100 1800
 F 0 "MK4" H 4200 1846 50  0000 L CNN
