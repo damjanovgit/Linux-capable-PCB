@@ -1834,12 +1834,6 @@ Text Label 3975 5100 1    50   ~ 0
 DQS0_P
 Text Label 3850 5100 1    50   ~ 0
 DQS0_N
-Wire Bus Line
-	3925 4050 3925 4250
-Wire Bus Line
-	2175 2550 2175 4050
-Wire Bus Line
-	3925 2350 3925 3850
 Text GLabel 4150 3850 2    50   Input ~ 0
 d[0..15]
 Wire Bus Line
@@ -1876,4 +1870,10 @@ Entry Bus Bus
 	3825 2350 3925 2450
 Entry Bus Bus
 	3825 2250 3925 2350
+Wire Bus Line
+	3925 4050 3925 4250
+Wire Bus Line
+	2175 2550 2175 4050
+Wire Bus Line
+	3925 2350 3925 3850
 $EndSCHEMATC
