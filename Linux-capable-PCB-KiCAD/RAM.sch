@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -1150,12 +1150,6 @@ F 3 "" H 2075 3625 50  0001 C CNN
 	2    2275 3025
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1400 2325 1400 3725
-Wire Bus Line
-	1425 3975 1425 4175
-Wire Bus Line
-	3150 2325 3150 3975
 Text GLabel 3425 3975 2    50   Input ~ 0
 d[0..15]
 Wire Bus Line
@@ -1192,4 +1186,10 @@ Entry Bus Bus
 	3150 2425 3050 2325
 Entry Bus Bus
 	3150 2325 3050 2225
+Wire Bus Line
+	1425 3975 1425 4175
+Wire Bus Line
+	1400 2325 1400 3725
+Wire Bus Line
+	3150 2325 3150 3975
 $EndSCHEMATC
