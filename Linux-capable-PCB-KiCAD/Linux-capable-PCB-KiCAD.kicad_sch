@@ -5444,63 +5444,6 @@
     (pin "1" (uuid 4fb102f8-649b-4220-9605-7f9d0d1bc167))
   )
 
-  (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 133.35 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062f64777)
-    (property "Reference" "C4" (id 0) (at 136.271 123.2916 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (id 1) (at 134.62 127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 134.3152 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 133.35 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 483fcb71-b7eb-453e-afd5-3b58f67b3904))
-    (pin "2" (uuid d2eb78a3-6dcf-47fb-8cdb-39b6b76e780d))
-  )
-
-  (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 143.51 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062f64781)
-    (property "Reference" "C8" (id 0) (at 146.431 123.2916 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (id 1) (at 144.78 127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 144.4752 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 143.51 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0f7f7522-1aad-42c4-b6a6-664d3f43ca22))
-    (pin "2" (uuid d6ae5caf-db60-4637-aa1d-324ecd6c55b4))
-  )
-
-  (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 153.67 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062f6478b)
-    (property "Reference" "C12" (id 0) (at 156.591 123.2916 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22u" (id 1) (at 154.94 127 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 154.6352 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 153.67 124.46 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid da48c18c-5c13-4a88-ac46-33646e41416c))
-    (pin "2" (uuid a51a6720-6726-4064-9ebb-2846b966fccd))
-  )
-
   (symbol (lib_id "power:GND") (at 133.35 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062f64795)
@@ -5563,44 +5506,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d9330ad-46b8-4065-857f-aa066ad69fb9))
-  )
-
-  (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 166.37 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062fab1b6)
-    (property "Reference" "C16" (id 0) (at 169.291 124.5616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (id 1) (at 167.64 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 167.3352 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 166.37 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d65ea68d-1128-48f6-9065-4f319e35f281))
-    (pin "2" (uuid c5e18434-f40f-4049-aae5-73c253fdb766))
-  )
-
-  (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 176.53 125.73 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-000062fab1c0)
-    (property "Reference" "C19" (id 0) (at 179.451 124.5616 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (id 1) (at 177.8 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 177.4952 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 176.53 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9803767a-20bb-4d97-9d9b-e37ba4665395))
-    (pin "2" (uuid b8fa7a94-a6d4-49d2-9089-6dca188577a9))
   )
 
   (symbol (lib_id "Linux-capable-PCB-KiCAD-rescue:C-device") (at 186.69 125.73 0) (unit 1)
@@ -6086,6 +5991,9 @@
     (path "/00000000-0000-0000-0000-000062fc748e"
       (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000062fc6136/037b4e21-be21-45a1-9311-d38a9b587986"
+      (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062a972ee"
       (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
     )
@@ -6148,6 +6056,12 @@
     )
     (path "/00000000-0000-0000-0000-000062fc6136/1843ccd2-320d-41dd-a92c-24904b56f118"
       (reference "#PWR0166") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062fc6136/f4f0db91-2f2c-4961-9e0f-5180e1171424"
+      (reference "#PWR0167") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062fc6136/f0cc5eca-8f7e-4be9-a144-2211ba7e0683"
+      (reference "#PWR0168") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-00006383986a"
       (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
@@ -6214,15 +6128,6 @@
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c64ab7"
       (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cb5c2a"
-      (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cb5f27"
-      (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cc4039"
-      (reference "#PWR0212") (unit 1) (value "+1V35") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cdb656"
       (reference "#PWR0213") (unit 1) (value "GND") (footprint "")
@@ -6338,9 +6243,6 @@
     (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-000063044327"
       (reference "#PWR0250") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-000062c74527"
-      (reference "#PWR0251") (unit 1) (value "+1V5") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-000063096a32"
       (reference "#PWR0252") (unit 1) (value "GND") (footprint "")
     )
@@ -6371,14 +6273,8 @@
     (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-0000630ae8a4"
       (reference "#PWR0261") (unit 1) (value "+1V1") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062fc6136/037b4e21-be21-45a1-9311-d38a9b587986"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062fc6136/f0cc5eca-8f7e-4be9-a144-2211ba7e0683"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062fc6136/f4f0db91-2f2c-4961-9e0f-5180e1171424"
-      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
+    (path "/00000000-0000-0000-0000-00006385baa8/4cf8afb4-df95-4471-94f0-921718843c49"
+      (reference "#PWR?") (unit 1) (value "+1V35") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062fc6136/8e8c3e17-13b3-4eee-9225-b1e3c2a3329d"
       (reference "#U0101") (unit 1) (value "GND") (footprint "")
@@ -6395,9 +6291,6 @@
     (path "/00000000-0000-0000-0000-000062d91f34"
       (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000062f64777"
-      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-000062d91b4e"
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -6406,9 +6299,6 @@
     )
     (path "/00000000-0000-0000-0000-000062e86744"
       (reference "C7") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000062f64781"
-      (reference "C8") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062d91768"
       (reference "C9") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6419,9 +6309,6 @@
     (path "/00000000-0000-0000-0000-000062e86adb"
       (reference "C11") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000062f6478b"
-      (reference "C12") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-000062d90f5c"
       (reference "C13") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -6431,17 +6318,11 @@
     (path "/00000000-0000-0000-0000-000062ecbfc4"
       (reference "C15") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000062fab1b6"
-      (reference "C16") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-000062d5b2c7"
       (reference "C17") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062ecc222"
       (reference "C18") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000062fab1c0"
-      (reference "C19") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062ecc4b1"
       (reference "C20") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6460,6 +6341,12 @@
     )
     (path "/00000000-0000-0000-0000-000062afb864"
       (reference "C25") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000062fc6136/5b3bb060-5a69-469a-b606-f1270e7e45f5"
+      (reference "C26") (unit 1) (value "100nF") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000062fc6136/f86c1e98-61b3-4ba2-93e2-adda712e365d"
+      (reference "C27") (unit 1) (value "22uF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062b2a956"
       (reference "C29") (unit 1) (value "30p") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6509,17 +6396,11 @@
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c0bc5f"
       (reference "C49") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cb59cc"
-      (reference "C50") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c0c552"
       (reference "C51") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c0c7a8"
       (reference "C52") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cb5246"
-      (reference "C53") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c0c991"
       (reference "C54") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -6641,9 +6522,6 @@
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062ab417b"
       (reference "J4") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
-    (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000063014ba3"
-      (reference "J5") (unit 1) (value "Micro_SD_Card_Det") (footprint "Connector_Card:microSD_HC_Molex_104031-0811")
-    )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-00006380fad4"
       (reference "J6") (unit 1) (value "MIC_DIFF_IN") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
@@ -6675,10 +6553,10 @@
       (reference "MK4") (unit 1) (value "Mounting_Hole") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062ac1ce3"
-      (reference "Q1") (unit 1) (value "Q_PMOS_GSD") (footprint "")
+      (reference "Q1") (unit 1) (value "Q_PMOS_GSD") (footprint "Package_TO_SOT_SMD:SC-59_Handsoldering")
     )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062acaa1b"
-      (reference "Q2") (unit 1) (value "BC547") (footprint "TO_SOT_Packages_THT:TO-92_Molded_Narrow")
+      (reference "Q2") (unit 1) (value "BC547") (footprint "Package_TO_SOT_SMD:SC-59_Handsoldering")
     )
     (path "/00000000-0000-0000-0000-000062a15ed1"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6730,6 +6608,9 @@
     )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062aa4c81"
       (reference "R17") (unit 1) (value "200k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000062fc6136/b2cae733-8f06-4d0e-b02a-37fd37d45ed5"
+      (reference "R18") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062cd311b"
       (reference "R19") (unit 1) (value "240R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6791,9 +6672,6 @@
     (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-000063044288"
       (reference "R38") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000062fc6136/b2cae733-8f06-4d0e-b02a-37fd37d45ed5"
-      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-000062fc6136/00000000-0000-0000-0000-000062afe911"
       (reference "TP1") (unit 1) (value "Test_Point") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
@@ -6815,6 +6693,9 @@
     (path "/00000000-0000-0000-0000-00006385baa8/00000000-0000-0000-0000-00006318b766"
       (reference "TP7") (unit 1) (value "1V35 TP") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
+    (path "/00000000-0000-0000-0000-000062fc6136/77c36826-1084-42d0-af85-c4921550c7f6"
+      (reference "TP8") (unit 1) (value "Test_Point") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
     (path "/00000000-0000-0000-0000-000062a072ca"
       (reference "U1") (unit 1) (value "A33") (footprint "eec:Allwinner_Technology_Co.,_Ltd.-A33-0")
     )
@@ -6830,11 +6711,8 @@
     (path "/00000000-0000-0000-0000-000062fc6136/3d9e075d-d737-4984-a434-b2d3c37d1fc3"
       (reference "U2") (unit 1) (value "RTL8188CUS") (footprint "realtek:RTL8188CUS")
     )
-    (path "/00000000-0000-0000-0000-000062fc6136/5b3bb060-5a69-469a-b606-f1270e7e45f5"
-      (reference "U3") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000062fc6136/f86c1e98-61b3-4ba2-93e2-adda712e365d"
-      (reference "U4") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-000062fc6136/7ee57ead-f176-4b8d-8cc0-2fa83df65534"
+      (reference "U5") (unit 1) (value "SD_card_slot") (footprint "SD_Card_9_pin:SD_Card_9_pin_slot")
     )
     (path "/00000000-0000-0000-0000-000062b74c24/00000000-0000-0000-0000-000062c71532"
       (reference "U8") (unit 1) (value "HTQ4G63AFR-PCB") (footprint "Package_BGA:BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm")

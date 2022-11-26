@@ -6,4 +6,5 @@
   (lib (name "MMA8425Q_Gsensor")(type "Legacy")(uri "${KIPRJMOD}/MMA8425Q_Gsensor.lib")(options "")(descr ""))
   (lib (name "ti")(type "Legacy")(uri "C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/ti/ti.lib")(options "")(descr ""))
   (lib (name "realtek")(type "Legacy")(uri "${KIPRJMOD}/realtek/realtek.lib")(options "")(descr ""))
+  (lib (name "SD_Card_9_pin")(type "KiCad")(uri "${KIPRJMOD}/SD_Card_9_pin/SD_Card_9_pin.kicad_sym")(options "")(descr ""))
 )

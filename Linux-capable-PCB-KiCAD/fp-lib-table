@@ -138,4 +138,5 @@
   (lib (name "eec")(type "KiCad")(uri "C:/Users/dprerad/Desktop/MasterRad/Linux-capable-PCB/A33/eec.pretty")(options "")(descr ""))
   (lib (name "Small2_4GHz_PCB_Antenna")(type "KiCad")(uri "${KIPRJMOD}/Small2_4GHz_PCB_Antenna.pretty")(options "")(descr ""))
   (lib (name "realtek")(type "KiCad")(uri "${KIPRJMOD}/realtek/realtek.pretty")(options "")(descr ""))
+  (lib (name "SD_Card_9_pin")(type "KiCad")(uri "${KIPRJMOD}/SD_Card_9_pin/SD_Card_9_pin.pretty")(options "")(descr ""))
 )
